@@ -1,0 +1,166 @@
+body {
+	width: 100vw;
+	height: 100vw;
+	background-color: linear-gradient(#E0E0E0, #757575);
+	text-decoration-color: #000001;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	line-height: 1.25em;
+	font-weight: bold;
+	display: table;
+	padding-left: 20px;
+}
+
+.header h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-indent: 0.5em;
+	margin: 0px;
+}
+
+ul {
+	list-style-image: url('images/marker.gif');
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 13pt;
+}
+
+nav a {
+	text-decoration: none;
+	display: table-row;
+	font-size: 120%;
+
+}
+
+h2 {
+	color: #334DCC;
+}
+
+dd {
+	margin-bottom: 1.5em;
+}
+
+dt {
+	color: #000099;
+	font-size: 14pt;
+}
+
+img {
+	height: 180px;
+	width: 180px;
+	padding-left: 10px;
+}
+
+.resort {
+	color: #005CE6;
+	font-weight: bold;
+}
+
+.contact {
+	border: 1px solid;
+	font-size: 10pt;
+	font-size: 90%;
+	margin: 50px 0 5px 10px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+}
+
+#wrapper {
+	margin: 5px 20px 5px 20px;
+	min-width: 975px;
+	max-width: 1300px;
+	width: 80%;
+	display: table;
+	table-layout: fixed;
+}
+
+.header {
+	background-color: #000033;
+	color: #FFFFFF;
+	background-image: url(images/sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	line-height: 400%;
+	text-align: center;
+	width: 945px;
+}
+
+#tbrow {
+	display: table-row;
+	min-width: 975px;
+	max-width: 1300px;
+}
+
+.nav, .main {
+	display: table-cell;
+	float: left;
+}
+
+.nav {
+	width: 190px;
+	margin-top: 30px;
+}
+
+.main {
+	width: 735px;
+	margin-left: 20px;
+	margin-right: 30px;
+}
+
+.footer {
+	display: table-row;
+	min-width: 975px;
+	max-width: 1300px;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#indexpage-mainimage {
+	background: url("images/coast-main.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 260px;
+}
+
+#accommodationspage-mainimage {
+	background: url("images/bungalow-main.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 260px;
+}
+
+#activitiespage-mainimage {
+	background: url("images/trail-main.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 260px;
+}
+
+table {
+	width: 500px;
+}
+
+th {
+	background-color: #000099;
+	color: #EAEAEA;
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+	background-color: #56A5EC;
+}
+
+table tr:nth-child(odd) {
+	background-color: #659EC7;
+}
+
+.alignleft {
+	text-align: left;
+}

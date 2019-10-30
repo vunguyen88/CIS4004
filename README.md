@@ -1,2 +1,2 @@
 # CIS4004
-Web project
+Website project for class
